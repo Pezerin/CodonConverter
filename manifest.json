@@ -1,0 +1,17 @@
+{
+    "name": "Codon Converter",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Converts codons of DNA, mRNA, and to their amino acids",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+    "action": 
+    {
+        "default_icon": "dna.png",
+        "default_popup": "popup.html"
+    }
+}
